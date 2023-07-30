@@ -1,5 +1,6 @@
 print("Welcome to the calculator!")
-while True :
+choice="yes"
+while choice == "yes" :
  a=float(input("Enter the first number:"))
  b=float(input("Enter the second number:"))
  print("Menu\n1. Addition\n2. Subtraction\n3. Multiplication\n4. Division")
@@ -19,5 +20,4 @@ while True :
  else:
      print("Error: No such operation")
  choice = input("Do you want to continue? (yes/no)")
- break
 print("Thank you for using the Currency Converter. Goodbye!")
